@@ -1,0 +1,10 @@
+User-agent: *
+
+Disallow: teste.html
+Disallow: manutencao/index.html
+Disallow: manutencao/style.css
+Disallow: manutencao/teste.html
+Disallow: obrigado.html
+Disallow: teste.html
+Allow: index.html
+Sitemap: https://www.brazconnect.com.br/index.html

@@ -1,0 +1,121 @@
+/* Página Obrigado */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat'
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+:root {
+    --verde-agua: #5faaa5;
+    --verde-aguahover: #457e7a;
+    --tifany: #d13795;
+    --tifanyhover: #a72b77;
+    --tifanyuphover: #7c2059;
+    --azul-escuro: #0b6e69;
+    --azul-escurohover: #09524e;
+    --branco: #FFF;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: var(--branco);
+    height: 8rem;
+    
+}
+
+.header .logo img{
+    width: 300px;
+}
+
+.containerbg{
+    background: linear-gradient(70deg, #000, #4d1235);
+    color: var(--branco);
+    height: 50.7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.containerbg .box h1{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 2rem;
+}
+
+.containerbg .box a{
+    color: var(--tifany);
+    font-weight: 900;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.containerbg .box .button a{
+    background-color: var(--branco);
+    padding: 20px;
+
+}
+
+.containerbg .box .button{
+    transition: all 0.8s ease;
+}
+
+.containerbg .box .button:hover{
+    transform: translateX(1rem);
+}
+
+
+.containerbg .box a:hover{
+    color: var(--tifanyhover);
+}
+
+.containerbg .box p{
+    font-size: 1.2rem;
+}
+
+.containerbg .box .imagem{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.containerbg .box .imagem img{
+    width: 600px;
+}
+
+.containerbg .box .textarea{
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 720px) {
+    .containerbg .box .imagem img{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .containerbg .box .imagem img{
+        margin-top: 2rem;
+        width: 300px;
+    }
+
+    .containerbg .box h1{
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        margin-bottom: 2rem;
+    }
+}
